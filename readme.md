@@ -26,7 +26,6 @@ Author: Yang Shan     Revise: Wang Zilu
   * [Machine Maintenance Simulation-Example](#machine-maintenance-simulation-example)
 - [MRP](#mrp)
   * [One Products Planning](#one-products-planning)
-
   * [Total Planning](#total-planning)
 
 

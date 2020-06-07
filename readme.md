@@ -2,6 +2,8 @@
 
 This repository includes examples and slides in [Prof. Qiu Canhua's](https://sem.tongji.edu.cn/semch/15130.html) OM class. Notes for the examples are as follows.
 
+Author: Yang Shan     Revise: Wang Zilu
+
 - [LP Problem](#lp-problem)
   * [Simple LP problem](#simple-lp-problem)
   * [Transportation Problem](#transportation-problem)

@@ -41,21 +41,21 @@ s.t.    4X+6Y<=120
         X,Y>=0
 ```
 
-<img src="img/image-20200607143021015.png" alt="image-20200607143021015" width="200px" />
+<img src="img/image-20200607143021015.png" alt="image-20200607143021015" height="350px" />
 
 Then input the target cells, variable cells, and constraints into the scheduling model. Click scheduling and we can get the computing results.
 
-![img](img/image-20200607143240027.png)
+<img src="img/image-20200607143240027.png" alt="img" height="300px" />
 
 #### Transportation Problem
 
 Transportation Problem is a special LP problem. The core methodology is the same as beyond, which builds a linear programming problem and uses the LP scheduling model to solve it.
 
-![img](img/image-20200607142350303.png)
+<img src="img/image-20200607142350303.png" alt="img" height="150px" />
 
 The first table contains the costs from factories to warehouses. The second table contains all variables that are transportation quantities. The third table computes the total cost which is also the basis of the objective function. Input these items input the scheduling model of excel and we can simply get the final result.
 
-![img](img/image-20200607142301300.png)
+<img src="img/image-20200607142301300.png" alt="img" height="350px" />
 
 ### Scheduling
 
@@ -65,13 +65,13 @@ The first table contains the costs from factories to warehouses. The second tabl
 
 #### Scheduling issues
 
-![image-20200607233622733](img/image-20200607233622733.png)
+<img src="img/image-20200607233622733.png" alt="image-20200607233622733" height="350px" />
 
 
 
 #### Production planning-cumulative curve method
 
-![image-20200608000424715](img/image-20200608000424715.png)
+<img src="img/image-20200608000424715.png" alt="image-20200608000424715" height="350px" />
 
 In this production planning problem, we assume average daily output is a constant to simplify this problem. 
 
@@ -91,7 +91,7 @@ It's obvious ending inventory is the lowest in October. If we make it zero, endi
 
 Cumulative production equals to cumulative demand in October and cumulative production is always greater than cumulative demand during this year after adjustment.
 
-![image-20200608002635882](img/image-20200608002635882.png)
+<img src="img/image-20200608002635882.png" alt="image-20200608002635882" height="350px" />
 
 #### Total production planning technology
 
@@ -101,7 +101,7 @@ In order to compute
 
 
 
-![image-20200607155256874](img/image-20200607155256874.png)
+<img src="img/image-20200607155256874.png" alt="image-20200607155256874" height="x50px" />
 
 
 
@@ -111,9 +111,9 @@ In this part, we take Newsvendor Model for example. As for this problem, we only
 
 We can see from below that if the number of requirements is greater than 37, net income is cheaper than 0. So we should stock 37 pieces of products. 
 
-![image-20200607190151009](img/image-20200607190151009.png)
+<img src="img/image-20200607190151009.png" alt="image-20200607190151009" height="300px" />
 
-![image-20200607190754807](img/image-20200607190754807.png)
+<img src="img/image-20200607190754807.png" alt="image-20200607190754807" height="250px" />
 
 ### Forecasting
 
@@ -123,7 +123,7 @@ Moving average is the most easy way for forecasting demand. We only need to calc
 
 We can also take endow history demands different weight to calculate the weighted average. This method is called the weighted moving average method.
 
-![image-20200607160622779](img/image-20200607160622779.png)
+<img src="img/image-20200607160622779.png" alt="image-20200607160622779" height="600px" />
 
 #### Forecast Error Measures
 
@@ -135,7 +135,7 @@ To measure the forecasting error, we need to take some values as indicators.
 
 **TS**: Time series
 
-![image-20200607161048451](img/image-20200607161048451.png)
+<img src="img/image-20200607161048451.png" alt="image-20200607161048451" height="200px" />
 
 #### Causal Relationships/Linear Regression
 
@@ -143,7 +143,7 @@ In order to forecast the demand or the sales, we can also find the casusal relat
 
 For example, the number of housing start permits have casusal relationships with the carpet sales.
 
-![image-20200607162110603](img/image-20200607162110603.png)
+<img src="img/image-20200607162110603.png" alt="image-20200607162110603" height="500px" />
 
 In some cases, x and y may not have linear correlations. We need to replace y with different power-law index and compute the linear regression again.
 
@@ -155,7 +155,7 @@ Time series can be defined as a series arranged in chronological order, which co
 
 Take the seasonal element as an example, we need to use seasonal coefficient to adjust sales. Sales may have linear correlations with time after adjustment.
 
-![image-20200607202904176](img/image-20200607202904176.png)
+<img src="img/image-20200607202904176.png" alt="image-20200607202904176" height="350px" />
 
 #### Exponential Smoothing 
 
@@ -165,32 +165,32 @@ The next week’s forecast demand is equal to this week’s forecast demand minu
 
 Next week's forecast demand = This week's forecast demand + The deviation between forecast and actual demand this week * smooth parameter
 
-<img src="img/image-20200607202443921.png" alt="image-20200607202443921" style="zoom:50%;" />
+<img src="img/image-20200607202443921.png" alt="image-20200607202443921" height="100px" />
 
-<img src="img/image-20200607162710198.png" alt="image-20200607162710198" style="zoom:50%;" />
+<img src="img/image-20200607162710198.png" alt="image-20200607162710198" height="500px" />
 
 #### Second Exponential Smoothing Method
 
 In the case of a trend, the exponential smoothing method will lag, so the second exponential smoothing method can be used for prediction.
 For the situation after the trend and seasonal fluctuations, it is necessary to use the three-exponential smoothing method to predict. We only introduce the secondary exponential smoothing method here.
 
-![image-20200607202753043](img/image-20200607202753043.png)
+<img src="img/image-20200607202753043.png" alt="image-20200607202753043" height="80px" />
 
-![image-20200607200500332](img/image-20200607200500332.png)
+<img src="img/image-20200607200500332.png" alt="image-20200607200500332" height="300px" />
 
 ### Supply chain management - Problem
 
 Source:  ([Riskpool-example.xls](5.Supply-chain-management))
 
-![image-20200607164335982](img/image-20200607164335982.png)
+<img src="img/image-20200607164335982.png" alt="image-20200607164335982" height="300px" />
 
-![image-20200607171212156](img/image-20200607171212156.png)
+<img src="img/image-20200607171212156.png" alt="image-20200607171212156" height="280px" />
 
 EOQ: Economic order quantity
 
 We can use the same way to compute the average inventory of decentralized system and centralized system to maintain a 97% service level. Just compute the safty stock, ROP, and EOQ according to the leading time and history demand, the average inventory is easy to compute.
 
-![image-20200607171240035](img/image-20200607171240035.png)
+<img src="img/image-20200607171240035.png" alt="image-20200607171240035" height="600px" />
 
 ### Simulation
 

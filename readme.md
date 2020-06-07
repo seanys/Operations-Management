@@ -41,7 +41,7 @@ s.t.    4X+6Y<=120
         X,Y>=0
 ```
 
-<img src="img/image-20200607143021015.png" alt="image-20200607143021015" style="zoom:20%;" />
+<img src="img/image-20200607143021015.png" alt="image-20200607143021015" width="200px" />
 
 Then input the target cells, variable cells, and constraints into the scheduling model. Click scheduling and we can get the computing results.
 
